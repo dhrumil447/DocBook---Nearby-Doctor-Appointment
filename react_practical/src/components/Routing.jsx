@@ -31,9 +31,7 @@ import DoctorDashboard from "../Doctor/Doctordashboard";
 import AdminReview from "../Admin/AdminReview";
 import DoctorReviews from "../Doctor/DoctorReview";
 import AdminPayments from "../Admin/Payment";
-// import MedicalReport from "../Doctor/medicalreport";
 
-// import Doctor from './Doctor'
 
 const Routing = () => {
   return (
@@ -70,7 +68,6 @@ const Routing = () => {
           <Route path="prescription/:id" element={<Prescription/>}/>
           <Route path="patient" element={<DoctorPatients/>}/> 
           <Route path="review" element={<DoctorReviews/>}/>
-          {/* <Route part="medicalreport" element={<MedicalReport/>}/> */}
         </Route>
 
 
@@ -80,7 +77,7 @@ const Routing = () => {
         <Route path="doctorreg" element={<Doctorreg />} />
       </Route>
 
-      {/* <Route path="*" element={<PageNotFound/>}/> */}
+     
     </Routes>
     
      </>
