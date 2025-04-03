@@ -124,7 +124,7 @@ useEffect(() => {
       <Container fluid>
         <div
           style={{
-            backgroundImage: "url('./src/assets/finddr.png')",
+            backgroundImage: "url('https://res.cloudinary.com/dhrumil7/image/upload/v1743702401/finddr_x0krov.png')",
             backgroundSize: "cover",
             backgroundPosition: "center",
             height: "400px",

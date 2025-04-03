@@ -77,7 +77,7 @@ const Login = () => {
            
             <div className="p-4">
               <video width="600" autoPlay loop muted height={300}>
-                <source src="./src/assets/log.mp4" type="video/mp4"  />
+                <source src="https://res.cloudinary.com/dhrumil7/video/upload/v1743702698/log_jvllzo.mp4" type="video/mp4"  />
                
               </video>
             </div>

@@ -7,12 +7,12 @@ import { motion } from "framer-motion";
 
 const Home = () => {
   const specialties = [
-    { title: "Tooth pain, cavity, gum issue", url: "src/assets/dentist.png" },
-    { title: "Acne, pimple or skin issues", url: "src/assets/Dermatologist.png" },
-    { title: "Cold, cough or fever", url: "src/assets/GeneralPhysician.png" },
-    { title: "Child not feeling well", url: "src/assets/child.png" },
-    { title: "Depression or anxiety", url: "src/assets/depression.png" },
-    { title: "Period doubts or Pregnancy", url: "src/assets/pregnancy.png" },
+    { title: "Tooth pain, cavity, gum issue", url: "https://res.cloudinary.com/dhrumil7/image/upload/v1743702392/dentist_n2hwun.png" },
+    { title: "Acne, pimple or skin issues", url: "https://res.cloudinary.com/dhrumil7/image/upload/v1743702393/Dermatologist_l49tsx.png" },
+    { title: "Cold, cough or fever", url: "https://res.cloudinary.com/dhrumil7/image/upload/v1743702401/GeneralPhysician_u3krth.png" },
+    { title: "Child not feeling well", url: "https://res.cloudinary.com/dhrumil7/image/upload/v1743702392/child_w7gro7.png" },
+    { title: "Depression or anxiety", url: "https://res.cloudinary.com/dhrumil7/image/upload/v1743702392/depression_oombcx.png" },
+    { title: "Period doubts or Pregnancy", url: "https://res.cloudinary.com/dhrumil7/image/upload/v1743702407/pregnancy_dmheu8.png" },
   ];
 
   const steps = [
@@ -23,7 +23,7 @@ const Home = () => {
   ];
 
   const backgroundStyle = {
-    backgroundImage: "url('./src/assets/doctor.png')",
+    backgroundImage: "url('https://res.cloudinary.com/dhrumil7/image/upload/v1743702393/doctor_djhnaf.png')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     height:"400px",

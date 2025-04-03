@@ -50,7 +50,7 @@ const Register = () => {
             
           <Row>
             <Col md={5} style={{display: "flex",alignItems: "center",justifyContent: "center",}}>
-              <img src="./src/assets/illustration.png" alt="Doctor" style={{ width: "100%", borderRadius: "10px" }}/>
+              <img src="https://res.cloudinary.com/dhrumil7/image/upload/v1743702401/illustration_m37hb6.png" alt="Doctor" style={{ width: "100%", borderRadius: "10px" }}/>
             </Col>
 
             <Col md={7}>
