@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Sidebar from './Sidebar'
 import { Container } from 'react-bootstrap'
 import { Outlet } from 'react-router'
-import AdminNavbar from './Adminnavbar'
+import AdminNavbar from './AdminNavbar'
 
 const AdminLayout = () => {
   const [show,setShow] = useState(false)
