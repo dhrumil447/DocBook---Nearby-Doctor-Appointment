@@ -27,7 +27,7 @@ import Viewapp from "../Admin/Viewapp";
 import Prescription from "../Doctor/Prescription";
 import Medicalreport from "./Medicalreport";
 import DoctorPatients from "../Doctor/DoctorPatients";
-import DoctorDashboard from "../Doctor/Doctordashboard";
+import DoctorDashboard from "../Doctor/DoctorDashboard";
 import AdminReview from "../Admin/AdminReview";
 import DoctorReviews from "../Doctor/DoctorReview";
 import AdminPayments from "../Admin/Payment";
