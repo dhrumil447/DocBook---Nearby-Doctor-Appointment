@@ -32,6 +32,11 @@ import AdminReview from "../Admin/AdminReview";
 import DoctorReviews from "../Doctor/DoctorReview";
 import AdminPayments from "../Admin/Payment";
 
+import ResetPassword from "./ResetPassword";
+import EditPatientProfile from "./EditPatientProfile";
+import AdminContactMessages from "../Admin/AdminContactMessages";
+
+
 
 const Routing = () => {
   return (
@@ -41,11 +46,12 @@ const Routing = () => {
       <Route path="/" element={<App />}>
         <Route element={<><Header /><Outlet/><Footer/></>}>
           <Route index element={<Home />}></Route>
-          <Route path="finddoctor" element={<Finddoctor />}></Route>
+          <Route path="finddoctor" element={<Finddoctor/>}></Route>
           <Route path="About" element={<About />}></Route>
           <Route path="profile" element={<Myprofile/>}/>
           <Route path="contact" element={<ContactUs/>}/>
           <Route path="medicalreport" element={<Medicalreport/>}/>
+          <Route path="/edit-profile/:id" element={<EditPatientProfile />} />   
         </Route>
         
 
@@ -58,6 +64,7 @@ const Routing = () => {
           <Route path="viewap" element={<Viewapp/>}/>
           <Route path="review" element={<AdminReview/>}/>
           <Route path="payment" element={<AdminPayments/>}/>
+          <Route path="contact-messages" element={<AdminContactMessages/>}/>
         </Route>
 
         <Route path="doctor" element={<Doctorpanel />}>
@@ -75,6 +82,8 @@ const Routing = () => {
         <Route path="login" element={<Login />} />
         <Route path="register" element={<Register />} />
         <Route path="doctorreg" element={<Doctorreg />} />
+        
+        <Route path="/reset-password/:token" element={<ResetPassword />} />
       </Route>
 
      
